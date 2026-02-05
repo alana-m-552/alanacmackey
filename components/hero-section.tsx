@@ -4,7 +4,7 @@ import Image from "next/image"
 import Link from "next/link"
 import { ArrowRight, Download } from "lucide-react"
 import { useInView } from "@/hooks/use-in-view"
-import { cn } from "@/lib/utils"
+import { cn, assetPath } from "@/lib/utils"
 
 export function HeroSection() {
   const { ref, isInView } = useInView({ threshold: 0.1 })
@@ -26,7 +26,7 @@ export function HeroSection() {
             <div className="relative w-[280px] h-[280px] lg:w-[400px] lg:h-[400px]">
               <div className="absolute inset-0 rounded-full bg-gradient-to-br from-primary-300 to-accent-400 animate-pulse" />
               <Image
-                src="/images/headshot.jpg"
+                src={assetPath("/images/headshot.jpg")}
                 alt="Alana Mackey - Privacy Researcher and Cybersecurity Professional"
                 fill
                 className="rounded-full object-cover border-4 border-white shadow-xl relative z-10"
