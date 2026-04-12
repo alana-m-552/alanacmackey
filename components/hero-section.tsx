@@ -26,7 +26,7 @@ export function HeroSection() {
             <div className="relative w-[280px] h-[280px] lg:w-[400px] lg:h-[400px]">
               <div className="absolute inset-0 rounded-full bg-gradient-to-br from-primary-300 to-accent-400 animate-pulse" />
               <Image
-                src="/images/headshot.jpg"
+                src="/alanacmackey/images/headshot.jpg"
                 alt="Alana Mackey - Privacy Researcher and Cybersecurity Professional"
                 fill
                 className="rounded-full object-cover border-4 border-white shadow-xl relative z-10"
@@ -55,7 +55,7 @@ export function HeroSection() {
               )}
               style={{ transitionDelay: "300ms" }}
             >
-              Privacy Researcher
+              Engineer, Researcher, Perpetual Tinkerer
             </h2>
 
             <p
