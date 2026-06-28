@@ -9,35 +9,35 @@ export const metadata: Metadata = {
 const articles = [
   {
     id: "1",
-    title: "Privacy-Preserving Machine Learning: A Comprehensive Survey",
+    title: "Investigating moderation challenges to combating hate and harassment: The case of {Mod-Admin} power dynamics and feature misuse on reddit",
     category: "Research Paper",
-    publication: "Journal of Privacy Technology",
-    date: "December 2025",
+    publication: "USENIX Security",
+    date: "August 2024",
     excerpt:
-      "An in-depth analysis of differential privacy, federated learning, and secure multi-party computation techniques that enable machine learning while preserving individual privacy rights.",
-    href: "#",
+      "We also present the first systematization of how social media platform features (including especially security, privacy, and safety features) are misused for online abuse, and drawing on this systematization we articulate design themes for platforms that want to resist such misuse.",
+    href: "https://www.usenix.org/conference/usenixsecurity24/presentation/tabassum",
   },
   {
     id: "2",
-    title: "The Future of Data Governance in the Age of AI",
-    category: "Opinion",
-    publication: "Tech Policy Review",
-    date: "November 2025",
+    title: "'Custodian of Online Communities': How Moderator Mutual Support in Communities Help Fight Hate and Harassment Online",
+    category: "Research Paper",
+    publication: "Symposium on Usable Privacy and Security (SOUPS)",
+    date: "August 2024",
     excerpt:
-      "As AI systems become more prevalent, we need new frameworks for data governance that balance innovation with individual rights. This piece explores emerging regulatory approaches.",
-    href: "#",
+      "Volunteer moderation has long been adopted by social media companies as a means to combat hate and harassment. But as these moderators are supporting their communities, they are also exposed to the very same content they are trying to prevent. In this paper, we explore how moderators support each other in their work and how this support can be leveraged to improve moderation practices.",
+    href: "https://www.usenix.org/conference/soups2024/presentation/tabassum-madiha",
   },
   {
     id: "3",
-    title: "Securing Critical Infrastructure: Lessons from Recent Cyber Attacks",
+    title: "ICE'Procurement: Tracking ICE's procurement actions",
     category: "Analysis",
-    publication: "Cybersecurity Today",
-    date: "October 2025",
+    publication: "CORDA Democracy Fellowship",
+    date: "June 2026",
     excerpt:
-      "A detailed examination of recent attacks on critical infrastructure and the security measures organizations can implement to protect against sophisticated threat actors.",
-    href: "#",
+      "A proof-of-concept web application that tracks and visualizes procurement actions by the U.S. Immigration and Customs Enforcement (ICE) agency, providing transparency into government spending and contracts.",
+    href: "https://ice-procurement.vercel.app/",
   },
-  {
+  /* {
     id: "4",
     title: "Algorithmic Accountability: Who's Responsible When AI Goes Wrong?",
     category: "Research Paper",
@@ -66,7 +66,7 @@ const articles = [
     excerpt:
       "Exploring the tension between security and privacy in democratic societies, and proposing principles for the ethical deployment of surveillance technologies.",
     href: "#",
-  },
+  }, */
 ]
 
 export default function WritingPage() {
@@ -80,7 +80,7 @@ export default function WritingPage() {
           </h1>
           <p className="text-lg text-neutral-700 max-w-[600px] mx-auto animate-fade-in-up animation-delay-150">
             Exploring the intersection of privacy, security, and technology policy 
-            through research papers, articles, and opinion pieces.
+            through research papers, articles, and projects.
           </p>
         </div>
       </section>
