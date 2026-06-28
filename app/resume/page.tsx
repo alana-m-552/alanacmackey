@@ -17,7 +17,7 @@ export default function ResumePage() {
           </h1>
           <p className="text-lg text-neutral-700 max-w-[600px] mx-auto animate-fade-in-up animation-delay-150">
             My professional experience, education, and skills in privacy research, 
-            cybersecurity, and technology policy.
+            technology policy, and engineering.
           </p>
         </div>
       </section>

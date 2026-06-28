@@ -6,76 +6,88 @@ import { cn } from "@/lib/utils"
 const resumeData = {
   experience: [
     {
-      title: "Senior Privacy Researcher",
-      company: "TechPrivacy Institute",
-      period: "2023 - Present",
-      description: "Leading research initiatives on privacy-preserving technologies and contributing to policy frameworks for responsible AI development.",
+      title: "AI Governance Researcher",
+      company: "Arcadia Impact, London, UK",
+      period: "June 2025 - Sept. 2025",
+      description: "",
       highlights: [
-        "Published 5 peer-reviewed papers on differential privacy",
-        "Advised 3 Fortune 500 companies on privacy architecture",
-        "Developed open-source privacy toolkit with 2,000+ GitHub stars",
+        "Designed and led a qualitative interview study of AI governance professionals to identify common talent gaps and inform changes to the Orion AI Policy upskilling program.",
+        "Conducted research in the AI Governance stream of the Impact Research Group Progamme, as part of a team project titled \"Mind the (Pipeline) Gap: Retention and Skills in AI Governance & Safety Fellowships\", supervised by Karolina Korgul.",
       ],
     },
     {
-      title: "Cybersecurity Consultant",
-      company: "SecureNet Solutions",
-      period: "2020 - 2023",
-      description: "Provided strategic security consulting to enterprise clients, focusing on threat modeling and zero-trust architecture implementation.",
+      title: "Research Associate",
+      company: "Cybersecurity and Data Privacy Institute, Boston, MA",
+      period: "June 2023 - Sept. 2024",
+      description: "",
       highlights: [
-        "Led security assessments for 20+ organizations",
-        "Reduced client security incidents by 40% on average",
-        "Developed proprietary threat intelligence framework",
+        "Co-authored 2 peer-reviewed papers accepted at USENIX Security and SOUPS by conducting qualitative coding on moderator interviews and platform artifacts, which identified 4 recurring feature-misuse vectors and led to several policy recommendations.",
+        "Developed a reproducible methodology for evaluating whether emerging US privacy policies address marginalized communities, which I presented at the 2024 Privacy Law Scholars Conference.",
       ],
     },
     {
-      title: "Security Engineer",
-      company: "DataGuard Corp",
-      period: "2018 - 2020",
-      description: "Designed and implemented security solutions for cloud infrastructure and developed automated security testing pipelines.",
+      title: "HHMI Intern",
+      company: "Wellesley College Science Center, Wellesley, MA",
+      period: "January 2022 - May 2023",
+      description: "",
       highlights: [
-        "Built automated vulnerability scanning system",
-        "Achieved SOC 2 Type II compliance for the organization",
-        "Mentored junior engineers in security best practices",
+        "Gathered over one hundred resources on coding practice and emotional well-being for programmers and used these resources to deploy an online resource bank for cs undergraduate students",
+        "Increased community within the CS department by running skill-building events, emotional wellbeing check-ins, and talks.",
+        "Ran a long-form qualitative interview study with over 15% of the CS department student body that culminated in concrete recommendations for the Computer Science department to make curriculum more effective and impactful.",
+      ],
+    },
+    {
+      title: "Software Development Engineering Intern",
+      company: "GoDaddy, remote",
+      period: "July 2021 - August 2022",
+      description: "",
+      highlights: [
+        "Collaborated on 2 week sprints with 9 other full-time engineers on my team",
+        "Created, tested and deployed react components for the Search Engine Results Page",
+        "Interacted with the following tech stack daily: HTML/CSS, JavaScript, React, Mocha, Amazon Web Services, Visual Studio Code, Linux, Jira, Github, and Slack",
       ],
     },
   ],
   education: [
     {
-      degree: "Ph.D. in Computer Science",
-      institution: "Stanford University",
-      period: "2015 - 2018",
-      focus: "Specialization in Privacy-Preserving Computing",
-    },
-    {
-      degree: "M.S. in Cybersecurity",
-      institution: "Carnegie Mellon University",
-      period: "2013 - 2015",
-      focus: "Focus on Network Security and Cryptography",
-    },
-    {
-      degree: "B.S. in Computer Science",
-      institution: "MIT",
-      period: "2009 - 2013",
-      focus: "Minor in Mathematics",
+      degree: "B.A. Computer Science",
+      institution: "Wellesley College",
+      period: "December 2025",
+      focus: "Minors: Economics, Spanish · Relevant Coursework: Decolonial Research Strategies, International Politics of Security, AI Systems Research, Introduction to ML, Statistics, Systems Architecture, Data Structures and Algorithm",
     },
   ],
   skills: [
-    "Privacy Engineering",
-    "Threat Modeling",
-    "Penetration Testing",
+    "Java",
     "Python",
-    "Rust",
-    "Cloud Security",
-    "GDPR Compliance",
-    "AI/ML Security",
-    "Cryptography",
-    "Risk Assessment",
+    "React",
+    "Mocha (testing)",
+    "GitHub",
+    "Claude Code",
+    "VS Code",
+    "Jira",
+    "Linux",
+    "Microsoft Copilot",
+    "Project management",
+    "Event logistics",
+    "Research coordination",
+    "Budget tracking",
+    "Stakeholder communications",
+    "Qualitative research design",
+    "User interviews",
+    "Thematic coding",
+    "Data synthesis",
+    "Policy analysis",
+    "LaTeX",
+    "Overleaf",
   ],
-  certifications: [
-    "CISSP (Certified Information Systems Security Professional)",
-    "CIPP/US (Certified Information Privacy Professional)",
-    "AWS Certified Security - Specialty",
-    "Google Cloud Professional Security Engineer",
+  awards: [
+    "The IO Foundation Internet Engineering Task Force Fellowship – July 2025",
+    "Computer Science Department Community Leadership Award – May 2025",
+    "Susan Rappaport Knafel '52 Internship – March 2025",
+    "Impact Fellowship – Jan. 2025",
+    "Clare Booth Luce Undergraduate Research Award – Sept. 2022 - May 2024",
+    "Camellia Student Leadership Award – April 2022",
+    "Feminist Futures Fellow @ MIT Media Lab – May 2021",
   ],
 }
 
@@ -120,12 +132,12 @@ export function ResumeViewer() {
           <div className="bg-primary-900 text-white p-8 md:p-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-2">Alana Mackey</h2>
             <p className="text-xl text-primary-300 mb-4">
-              Privacy Researcher & Cybersecurity Professional
+              Researcher · Technologist · Community Organizer
             </p>
             <div className="flex flex-wrap gap-4 text-sm text-primary-200">
-              <span>alanacmackey@gmail.com</span>
+              <span>alanacmackey@proton.me</span>
               <span>•</span>
-              <span>San Francisco, CA</span>
+              <span>New York, NY</span>
               <span>•</span>
               <span>linkedin.com/in/alana-mackey</span>
             </div>
@@ -214,22 +226,22 @@ export function ResumeViewer() {
               </div>
             </section>
 
-            {/* Certifications Section */}
+            {/* Awards & Fellowships Section */}
             <section>
               <div className="flex items-center gap-3 mb-6">
                 <Award size={24} className="text-primary-700" />
                 <h3 className="text-2xl font-semibold text-primary-900">
-                  Certifications
+                  Select Awards & Fellowships
                 </h3>
               </div>
               <ul className="space-y-2">
-                {resumeData.certifications.map((cert, index) => (
+                {resumeData.awards.map((award, index) => (
                   <li
                     key={index}
                     className="flex items-center gap-2 text-neutral-700"
                   >
                     <span className="w-2 h-2 bg-accent-600 rounded-full flex-shrink-0" />
-                    {cert}
+                    {award}
                   </li>
                 ))}
               </ul>
