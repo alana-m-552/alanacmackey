@@ -91,7 +91,7 @@ const resumeData = {
   ],
 }
 
-const resumeButtons = [
+/* const resumeButtons = [
   {
     label: "Engineering Resume",
     href: "/resumes/engineering-resume.pdf",
@@ -104,13 +104,13 @@ const resumeButtons = [
     label: "Research Resume",
     href: "/resumes/research-resume.pdf",
   },
-]
+] */
 
 export function ResumeViewer() {
   return (
     <div className="animate-fade-in-up animation-delay-300">
       {/* Resume Type Buttons */}
-      <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
+      {/*<div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
         {resumeButtons.map((button) => (
           <Link
             key={button.label}
@@ -123,7 +123,7 @@ export function ResumeViewer() {
             {button.label}
           </Link>
         ))}
-      </div>
+      </div> */}
 
       {/* Resume Content */}
       <div className="bg-neutral-100 rounded-lg shadow-lg p-6 md:p-8">

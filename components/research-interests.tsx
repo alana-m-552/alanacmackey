@@ -27,7 +27,7 @@ const interests = [
     icon: Landmark,
     title: "Democracy + AI",
     description:
-      "AI systems are increasingly dictating how individuals participate in democracy. Automated systems that determine voter eligibility, generative tools that flood public spaces with misinformation, and more are impacting political participation around the globe. I’m interested in investigating how AI reshapes democratic participation? Can democracy survive the pace of AI development, and if so, what institutional, legal, and technical conditions make that survival possible?",
+      "AI systems are increasingly dictating how individuals participate in democracy. Automated systems that determine voter eligibility, generative tools that flood public spaces with misinformation, and more are impacting political participation around the globe. I’m interested in investigating how AI reshapes democratic participation. Can democracy survive the pace of AI development, and if so, what institutional, legal, and technical conditions make that survival possible?",
   },
   {
     icon: ShieldAlert,
