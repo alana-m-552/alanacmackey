@@ -58,6 +58,7 @@ const resumeData = {
   ],
   skills: [
     "Java",
+    "SQL",
     "Python",
     "React",
     "Mocha (testing)",
