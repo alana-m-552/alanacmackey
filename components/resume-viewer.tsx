@@ -53,7 +53,7 @@ const resumeData = {
       degree: "B.A. Computer Science",
       institution: "Wellesley College",
       period: "December 2025",
-      focus: "Minors: Economics, Spanish · Relevant Coursework: Decolonial Research Strategies, International Politics of Security, AI Systems Research, Introduction to ML, Statistics, Systems Architecture, Data Structures and Algorithm",
+      focus: "<b>Minors:</b> Economics, Spanish · <b>Relevant Coursework:</b> Econometrics, AI Systems Research, Introduction to ML, Statistics, Systems Architecture, Data Structures and Algorithm, Decolonial Research Strategies, International Politics of Security, Computer Architecture,",
     },
   ],
   skills: [

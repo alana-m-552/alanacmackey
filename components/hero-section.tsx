@@ -55,7 +55,7 @@ export function HeroSection() {
               )}
               style={{ transitionDelay: "300ms" }}
             >
-              Engineer, Researcher, Perpetual Tinkerer
+              Engineer, Researcher, Community Organizer
             </h2>
 
             <p

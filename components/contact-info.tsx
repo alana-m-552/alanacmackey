@@ -5,7 +5,7 @@ const contactMethods = [
   {
     icon: Mail,
     label: "Email",
-    value: "alanacmackey@gmail.com",
+    value: "alanacmackey [at] proton [dot] me",
     href: "mailto:alanacmackey@gmail.com",
     description: "Best for formal inquiries",
   },
@@ -16,13 +16,13 @@ const contactMethods = [
     href: "https://www.linkedin.com/in/alana-mackey/",
     description: "Connect professionally",
   },
-  {
+  /* {
     icon: Calendar,
     label: "Schedule a Call",
     value: "Book a 30-min chat",
     href: "#",
     description: "For speaking engagements",
-  },
+  }, */
 ]
 
 export function ContactInfo() {
