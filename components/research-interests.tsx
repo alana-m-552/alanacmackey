@@ -6,18 +6,6 @@ import { cn } from "@/lib/utils"
 
 const interests = [
   {
-    icon: MessageCircle,
-    title: "Community Building",
-    description:
-      "Whether it’s through online communities, local meetups, or professional networks, I am passionate about creating spaces where people can connect meaningfully, share knowledge, and support one another. Growing up in a world dominated by technical solutions I've seen the both the wonderful and troubling aspects of our digital interconnectedness. I create initiatives that realize the potential of technology to foster genuine human connection while mitigating its risks.",
-  },
-  {
-    icon: ShieldAlert,
-    title: "Public Protection Technologies",
-    description:
-      "I have a vested interest in the technologies deployed in the name of public safety. Systems like ShotSpotter, deployed across hundreds of police departments in the U.S., or predictive policing algorithms embedded in federal and state law enforcement pipelines, are technologies that shape the lives of millions of people. I’m interested in the technical validity of these technologies, the systems we can build to audit them, and the community based alternatives that may perform better than any tech we could make.",
-  },
-  {
     icon: Eye,
     title: "Data Privacy and Surveillance",
     description:
@@ -28,6 +16,24 @@ const interests = [
     title: "Participatory Action Research",
     description:
       "The communities most affected by surveillance technologies are rarely the ones who design the studies that examine those harms. I want to change that. For a long time, formal research institutions have used extractive research models instead of models of care and reparations. I am interested in emerging research methodologies that seek justice and care through everything from interview protocols to citation practices.",
+  },
+  {
+    icon: Landmark,
+    title: "Democracy + AI",
+    description:
+      "AI systems are increasingly dictating how individuals participate in democracy. Automated systems that determine voter eligibility, generative tools that flood public spaces with misinformation, and more are impacting political participation around the globe. I’m interested in investigating how AI reshapes democratic participation. Can democracy survive the pace of AI development, and if so, what institutional, legal, and technical conditions make that survival possible?",
+  },
+  {
+    icon: MessageCircle,
+    title: "Community Building",
+    description:
+      "Whether it’s through online communities, local meetups, or professional networks, I am passionate about creating spaces where people can connect meaningfully, share knowledge, and support one another. Growing up in a world dominated by technical solutions I've seen the both the wonderful and troubling aspects of our digital interconnectedness. I create initiatives that realize the potential of technology to foster genuine human connection while mitigating its risks.",
+  },
+  {
+    icon: ShieldAlert,
+    title: "Public Protection Technologies",
+    description:
+      "I have a vested interest in the technologies deployed in the name of public safety. Systems like ShotSpotter, deployed across hundreds of police departments in the U.S., or predictive policing algorithms embedded in federal and state law enforcement pipelines, are technologies that shape the lives of millions of people. I’m interested in the technical validity of these technologies, the systems we can build to audit them, and the community based alternatives that may perform better than any tech we could make.",
   },
   {
     icon: Network,
@@ -41,12 +47,6 @@ const interests = [
     description:
       "Developing robust security architectures and threat models to protect critical infrastructure. Expertise in penetration testing, vulnerability assessment, and security compliance frameworks.",
   }, */
-  {
-    icon: Landmark,
-    title: "Democracy + AI",
-    description:
-      "AI systems are increasingly dictating how individuals participate in democracy. Automated systems that determine voter eligibility, generative tools that flood public spaces with misinformation, and more are impacting political participation around the globe. I’m interested in investigating how AI reshapes democratic participation. Can democracy survive the pace of AI development, and if so, what institutional, legal, and technical conditions make that survival possible?",
-  },
   {
     icon: HeartHandshake,
     title: "Growing Older",
